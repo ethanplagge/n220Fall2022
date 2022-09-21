@@ -1,6 +1,6 @@
 //demonstration of an object
 let dude = {
-    name: "Bobert",
+    name: "Ethan",
     age: 48,
     hungry: true,
     fashionSense: 1,
