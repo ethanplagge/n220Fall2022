@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #square{
+            height: 200px;
+            width: 600px;
+           
+        }
+        .wrapper{
+    
+            height: 50px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>add RGB to make more colors</h1>
+    <div id="square"></div>
+    <br>
+    <br>
+    <div class="wrapper">
+        <button type="button" onclick="addRed(event)" data-val="1">Red: +1</button>
+        <button type="button" onclick="addRed(event)" data-val="5">Red: +5</button>
+        <button type="button" onclick="addRed(event)" data-val="10">Red: +10</button>
+    </div>
+    <div class="wrapper">
+        <button type="button" onclick="addGreen(event)" data-val="1">Green: +1</button>
+        <button type="button" onclick="addGreen(event)" data-val="5">Green: +5</button>
+        <button type="button" onclick="addGreen(event)" data-val="10">Green: +10</button>
+    </div>
+    <div class="wrapper">
+        <button type="button" onclick="addBlue(event)" data-val="1">Blue: +1</button>
+        <button type="button" onclick="addBlue(event)" data-val="5">Blue: +5</button>
+        <button type="button" onclick="addBlue(event)" data-val="10">Blue: +10</button>
+    </div>
+    <script src="js/mixer.js"></script>
+</body>
+</html>
