@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <style>
+        #container{
+            height: 350px;
+            width: 550px;
+
+        }
+        .row{
+            height: 8%;
+            width: 100%;
+            display: flex;
+            
+           
+        }
+        .element{
+            height: 100%;
+            width: 8.33%;
+            background-color: gray;
+            border: solid 1px black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p{
+            margin: 5px;
+        }
+        .wrapper{
+            height: 200px;
+            width: 700px;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <h2>Minesweeper!</h1>
+    <p>1.) Start the game by clicking on one of the squares on the grid. This reveals what's underneath the square.</p>
+   
+        <p>2.) If the square you clicked on does not contain a mine, it will be marked with a number indicating how many mines are adjacent to it. Use this information to deduce where the mines are located.</p>
+       
+        <p>3.) If you are certain that a square contains a mine, you can mark it by right-clicking on it.</p>
+        
+        <p>4.) If you have marked all of the mines on the grid, you can use the left-click to reveal all of the remaining squares. If any of these squares contain mines, the game is over and you have lost.</p>
+    </div>
+    <div id="container"></div>
+    <br>
+    <br>
+    <script src="js/script.js"></script>
+</body>
+</html>
